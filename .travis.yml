@@ -1,0 +1,12 @@
+language: java
+sudo: false
+sudo: enabled
+
+deploy:
+  provider: heroku
+  api_key: ...
+  app:
+    master: sebu-leshan-live
+  on: master
+  skip_cleanup: true
+  web: java -jar leshan-server-demo/target/leshan-server-demo-1.0.0-SNAPSHOT-jar-with-dependencies.jar
