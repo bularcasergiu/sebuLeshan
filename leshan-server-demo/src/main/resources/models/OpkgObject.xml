@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LWM2M xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://openmobilealliance.org/tech/profiles/LWM2M.xsd">
+	<Object ObjectType="MODefinition">
+		<Name>OpkgObject</Name>
+		<Description1><![CDATA[This LwM2M Object provides a range of device related information which can be queried by the LwM2M Server, and a device reboot and factory reset function.]]></Description1>
+		<ObjectID>1034</ObjectID>
+		<ObjectURN>urn:oma:lwm2m:ext:1034</ObjectURN>
+		<MultipleInstances>Single</MultipleInstances>
+		<Mandatory>Optional</Mandatory>
+		<Resources>
+			<Item ID="0">
+				<Name>UDPATE</Name>
+        		<Operations>E</Operations>
+        		<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>String</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units></Units>
+				<Description><![CDATA[Human readable manufacturer name]]></Description>
+			</Item>
+			<Item ID="1">
+				<Name>LIST</Name>
+        		<Operations>E</Operations>
+        		<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>String</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units></Units>
+				<Description><![CDATA[Human readable manufacturer name]]></Description>
+			</Item>
+			<Item ID="2">
+				<Name>UPGRADE</Name>
+        		<Operations>E</Operations>
+        		<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>String</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units></Units>
+				<Description><![CDATA[Human readable manufacturer name]]></Description>
+			</Item>
+			<Item ID="3">
+				<Name>Install</Name>
+        		<Operations>E</Operations>
+        		<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>String</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units></Units>
+				<Description><![CDATA[Human readable manufacturer name]]></Description>
+			</Item>
+			<Item ID="4">
+				<Name>REMOVE</Name>
+        		<Operations>E</Operations>
+        		<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>String</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units></Units>
+				<Description><![CDATA[Human readable manufacturer name]]></Description>
+			</Item>
+			<Item ID="5">
+				<Name>LIST_INSTALLED</Name>
+        		<Operations>R</Operations>
+        		<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>String</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units></Units>
+				<Description><![CDATA[Human readable manufacturer name]]></Description>
+			</Item>
+			<Item ID="6">
+				<Name>Get_feedback</Name>
+        		<Operations>R</Operations>
+        		<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>String</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units></Units>
+				<Description><![CDATA[Human readable manufacturer name]]></Description>
+			</Item>
+		</Resources>
+	</Object>
+</LWM2M>
