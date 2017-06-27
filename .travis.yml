@@ -4,7 +4,7 @@ sudo: enabled
 
 deploy:
   provider: heroku
-  api_key: ...
+  api_key: AAAAB3NzaC...3dplFGFb8T
   app:
     master: sebu-leshan-live
   on: master
