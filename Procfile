@@ -1,1 +1,2 @@
-  web:    java $JAVA_OPTS -jar leshan-server-demo/target/leshan-server-demo-1.0.0-SNAPSHOT-jar-with-dependencies.jar --port $PORT
+web: bundle exec ruby config.ru
+worker: bundle exec rake jobs:work
